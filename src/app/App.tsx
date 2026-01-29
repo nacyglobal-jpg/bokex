@@ -25,7 +25,7 @@ import { SortSelector, SortOption } from '@/app/components/SortSelector';
 import { QuickFilters } from '@/app/components/QuickFilters';
 import { StatsSection } from '@/app/components/StatsSection';
 import { PopularDestinations } from '@/app/components/PopularDestinations';
-import bokexLogo from 'figma:asset/b3eec849e602f8c2161f203313ac85d8e639591b.png';
+
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<'home' | 'admin' | 'client' | 'account' | 'clientAccount' | 'propertyManagement' | 'register' | 'login' | 'bookingConfirmation' | 'myBookings' | 'listProperty' | 'propertyDetails' | 'ownerRegistration'>('home');
